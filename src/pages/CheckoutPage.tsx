@@ -203,16 +203,10 @@ const CheckoutPage = () => {
                             <div className={`relative rounded-lg border p-4 cursor-pointer flex items-center space-x-2 ${contactMethod === 'whatsapp' ? 'border-green-500 bg-green-500/5' : 'border-border'}`}>
                               <RadioGroupItem value="whatsapp" id="whatsapp" className="text-green-500" />
                               <Label htmlFor="whatsapp" className="cursor-pointer font-medium">WhatsApp</Label>
-                              {contactMethod === 'whatsapp' && (
-                                <Check className="h-4 w-4 text-green-500 absolute top-2 right-2" />
-                              )}
                             </div>
                             <div className={`relative rounded-lg border p-4 cursor-pointer flex items-center space-x-2 ${contactMethod === 'telegram' ? 'border-blue-500 bg-blue-500/5' : 'border-border'}`}>
                               <RadioGroupItem value="telegram" id="telegram" className="text-blue-500" />
                               <Label htmlFor="telegram" className="cursor-pointer font-medium">Telegram</Label>
-                              {contactMethod === 'telegram' && (
-                                <Check className="h-4 w-4 text-blue-500 absolute top-2 right-2" />
-                              )}
                             </div>
                           </RadioGroup>
                         </div>

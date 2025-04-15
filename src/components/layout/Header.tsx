@@ -10,14 +10,14 @@ export const Header = () => {
   
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur">
-      <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-3">
+      <div className="container flex h-16 items-center justify-between px-4">
+        <Link to="/" className="flex items-center gap-2 sm:gap-3">
           <img 
             src="/lovable-uploads/1744705140331.jpg" 
             alt="Find Yo Logo" 
-            className="h-10 w-10 rounded-full object-cover border-2 border-pink-500/20 shadow-lg"
+            className="h-8 w-8 sm:h-10 sm:w-10 rounded-full object-cover border-2 border-pink-500/20 shadow-lg"
           />
-          <span className="text-5xl font-['Dancing_Script'] font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent tracking-wider">
+          <span className="text-3xl sm:text-4xl md:text-5xl font-['Dancing_Script'] font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent tracking-wider whitespace-nowrap">
             Find Yo
           </span>
         </Link>
